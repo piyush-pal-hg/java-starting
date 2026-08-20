@@ -1,10 +1,18 @@
+import java.util.*;
+
 public class calcswitch {
+
     public static void main(String[] args){
-        System.out.println("Calculator using switch");
-        int a = 10;
-        int b = 5;
-        char operator = '+';
-        switch(operator){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter first Element:");
+        int a = sc.nextInt();
+        System.out.println("Enter operator:");
+        char op = sc.next().charAt(0);
+        System.out.println("Enter second Element:");
+        int b = sc.nextInt();
+        switch(op){
             case '+':
                 System.out.println(a + b);
                 break;
