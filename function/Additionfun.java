@@ -1,4 +1,4 @@
-package funtion;
+package function;
 import java.util.*;
 
 public class Additionfun{
